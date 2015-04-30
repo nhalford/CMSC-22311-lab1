@@ -1,0 +1,22 @@
+Configuring tagsoup-0.13.3...
+Building tagsoup-0.13.3...
+Preprocessing library tagsoup-0.13.3...
+[ 1 of 13] Compiling Text.HTML.TagSoup.Entity ( Text/HTML/TagSoup/Entity.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Entity.o )
+[ 2 of 13] Compiling Text.StringLike  ( Text/StringLike.hs, dist/dist-sandbox-a4f4a3f2/build/Text/StringLike.o )
+[ 3 of 13] Compiling Text.HTML.TagSoup.Type ( Text/HTML/TagSoup/Type.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Type.o )
+[ 4 of 13] Compiling Text.HTML.TagSoup.Match ( Text/HTML/TagSoup/Match.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Match.o )
+[ 5 of 13] Compiling Text.HTML.TagSoup.Tree ( Text/HTML/TagSoup/Tree.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Tree.o )
+[ 6 of 13] Compiling Text.HTML.TagSoup.Options ( Text/HTML/TagSoup/Options.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Options.o )
+[ 7 of 13] Compiling Text.HTML.TagSoup.Implementation ( Text/HTML/TagSoup/Implementation.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Implementation.o )
+[ 8 of 13] Compiling Text.HTML.TagSoup.Specification ( Text/HTML/TagSoup/Specification.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Specification.o )
+[ 9 of 13] Compiling Text.HTML.TagSoup.Manual ( Text/HTML/TagSoup/Manual.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Manual.o )
+[10 of 13] Compiling Text.HTML.TagSoup.Generated ( Text/HTML/TagSoup/Generated.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Generated.o )
+[11 of 13] Compiling Text.HTML.TagSoup.Render ( Text/HTML/TagSoup/Render.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Render.o )
+[12 of 13] Compiling Text.HTML.TagSoup.Parser ( Text/HTML/TagSoup/Parser.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup/Parser.o )
+[13 of 13] Compiling Text.HTML.TagSoup ( Text/HTML/TagSoup.hs, dist/dist-sandbox-a4f4a3f2/build/Text/HTML/TagSoup.o )
+In-place registering tagsoup-0.13.3...
+Creating package registration file:
+/var/folders/_6/p5zz2tqs4wx5ynb3rc6qs3lr0000gn/T/pkgConf-tagsoup-0.1316460350011025921153.3
+Installing library in /Users/nhalford/Dropbox/UChicago/Third year/Spring/CMSC
+22311/lab1/suck/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.1/tagso_FV4tiNTlyuXAtPG7M8YiI7
+Registering tagsoup-0.13.3...

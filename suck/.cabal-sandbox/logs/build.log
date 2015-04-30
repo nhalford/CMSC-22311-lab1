@@ -1,0 +1,100 @@
+
+package: HTTP-4000.2.19
+os: osx
+arch: x86_64
+compiler: ghc-7.10.1
+client: cabal-install-1.22.3.0
+flags: warp-tests -warn-as-error -network23 network-uri -mtl1
+       -conduit10
+dependencies: parsec-3.1.9 old-time-1.1.0.3 network-uri-2.6.0.1
+              network-2.6.0.2 mtl-2.2.1 bytestring-0.10.6.0 base-4.8.0.0
+              array-0.5.1.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: mtl-2.2.1
+os: osx
+arch: x86_64
+compiler: ghc-7.10.1
+client: cabal-install-1.22.3.0
+dependencies: transformers-0.4.2.0 base-4.8.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: network-2.6.0.2
+os: osx
+arch: x86_64
+compiler: ghc-7.10.1
+client: cabal-install-1.22.3.0
+dependencies: unix-2.7.1.0 bytestring-0.10.6.0 base-4.8.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: network-uri-2.6.0.1
+os: osx
+arch: x86_64
+compiler: ghc-7.10.1
+client: cabal-install-1.22.3.0
+dependencies: parsec-3.1.9 base-4.8.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: old-locale-1.0.0.7
+os: osx
+arch: x86_64
+compiler: ghc-7.10.1
+client: cabal-install-1.22.3.0
+dependencies: base-4.8.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: old-time-1.1.0.3
+os: osx
+arch: x86_64
+compiler: ghc-7.10.1
+client: cabal-install-1.22.3.0
+dependencies: old-locale-1.0.0.7 base-4.8.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: parsec-3.1.9
+os: osx
+arch: x86_64
+compiler: ghc-7.10.1
+client: cabal-install-1.22.3.0
+flags: base4
+dependencies: text-1.2.0.4 mtl-2.2.1 bytestring-0.10.6.0
+              base-4.8.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: tagsoup-0.13.3
+os: osx
+arch: x86_64
+compiler: ghc-7.10.1
+client: cabal-install-1.22.3.0
+flags: -testprog -download
+dependencies: text-1.2.0.4 containers-0.5.6.2 bytestring-0.10.6.0
+              base-4.8.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: text-1.2.0.4
+os: osx
+arch: x86_64
+compiler: ghc-7.10.1
+client: cabal-install-1.22.3.0
+flags: -integer-simple -developer
+dependencies: integer-gmp-1.0.0.0 ghc-prim-0.4.0.0 deepseq-1.4.1.1
+              bytestring-0.10.6.0 base-4.8.0.0 array-0.5.1.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
