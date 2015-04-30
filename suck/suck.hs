@@ -1,3 +1,7 @@
+-- Noah Halford, CMSC 22311
+-- suck.hs
+-- git repo at https://github.com/nhalford/CMSC-22311-lab1
+
 module Main where
 
 import qualified Data.Map.Strict as M
