@@ -67,16 +67,6 @@ makeModel [] = M.empty
 makeModel (x:xs) = updateModel (makeModel xs) a b c
     where ((a,b),c) = x
 
--- helper function for reading all URLs and writing to files
-urlToFile :: Int -> [String] -> IO ()
-urlToFile n urls = do
-    let url = urls !! n
-    let contents = getURLContents url
-    tags <- liftM parseTags contents
-    let result = map (filter isTagText) $ sections (~== "<p>") $ tags
-    let filename = "output/out" ++ (show $ n + 1) ++ ".txt"
-    writeFile filename $ unlines $ map fromTagText $ concat result
-
 -- bool tells us if we are in the process of removing a script
 harvest :: Bool -> [String] -> [String]
 harvest _ [] = []
